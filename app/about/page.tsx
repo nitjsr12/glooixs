@@ -22,132 +22,67 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Who We Are */}
-      <section className="py-16 px-4 md:px-8">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Glopixs is more than just a streaming platform – we're a passionate community 
-              dedicated to celebrating the rich diversity of global cinema. Our mission is to 
-              break down language barriers and bring exceptional regional content to audiences 
-              worldwide.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12 mt-16">
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="bg-blue-600 p-3 rounded-lg">
-                  <Heart className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Our Mission</h3>
-                  <p className="text-gray-300">
-                    To make regional cinema accessible to everyone, preserving cultural 
-                    heritage while fostering global understanding through the power of storytelling.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4">
-                <div className="bg-purple-600 p-3 rounded-lg">
-                  <Globe className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
-                  <p className="text-gray-300">
-                    To become the world's leading platform for regional and international 
-                    cinema, connecting audiences with stories that matter.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="bg-green-600 p-3 rounded-lg">
-                  <Users className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Our Community</h3>
-                  <p className="text-gray-300">
-                    We're building a vibrant community of film lovers who appreciate 
-                    diverse storytelling and cultural experiences.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4">
-                <div className="bg-red-600 p-3 rounded-lg">
-                  <Rocket className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Our Future</h3>
-                  <p className="text-gray-300">
-                    We're constantly expanding our library and developing new features 
-                    to enhance your viewing experience.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why We Started */}
-      <section className="py-16 px-4 md:px-8 bg-gray-900">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Why We Started</h2>
-          <div className="prose prose-lg prose-invert mx-auto">
-            <p className="text-gray-300 mb-6">
-              We noticed a significant gap in the streaming market – while mainstream content 
-              was readily available, rich regional cinema from cultures around the world 
-              remained largely inaccessible to global audiences.
-            </p>
-            <p className="text-gray-300 mb-6">
-              The vibrant film industries of Bhojpuri, Bengali, and Israeli cinema, among 
-              others, were producing exceptional content that deserved a wider platform. 
-              We saw an opportunity to bridge this gap and create a home for these 
-              incredible stories.
-            </p>
-            <p className="text-gray-300">
-              Today, Glopixs stands as a testament to our commitment to diversity in 
-              entertainment, offering a carefully curated selection of regional content 
-              that celebrates different cultures and perspectives.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Future Plans */}
+      {/* About Section */}
       <section className="py-16 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Looking Ahead</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-900 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Expanding Languages</h3>
-              <p className="text-gray-300">
-                Adding more regional languages and dialects to our growing library
-              </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">About Us</h2>
+          <p className="text-lg text-gray-300 leading-relaxed">
+          At Glopixs, we believe in the power of stories—the kind that transcend borders, cultures, and languages. We are more than just an OTT platform; we are a bridge connecting diverse content with audiences eager for fresh, authentic storytelling.
+          Glopixs was founded with a singular mission: to bring underrepresented content to the forefront and create a space where every voice matters. Whether it’s films, series, or documentaries, our platform is dedicated to curating content that reflects the world’s cultural diversity.
+          </p>
+        </div>
+      </section>
+
+      {/* Vision & Impact */}
+      <section className="py-16 px-4 md:px-8 bg-gray-900">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Vision & Impact</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="flex items-start space-x-4">
+              <div className="bg-blue-600 p-3 rounded-lg">
+                <Heart className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Vision</h3>
+                <p className="text-gray-300">
+                Inspired by Ratan Tata’s Legacy
+                At Glopixs, we believe in the power of inclusive growth and innovation—principles deeply embodied by Sir Ratan Tata. Just as he revolutionized industries by fostering accessibility, quality, and global impact, we aim to reshape the entertainment landscape by bringing regional and international cinema to a wider audience.</p>
+              </div>
             </div>
-            <div className="bg-gray-900 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Original Content</h3>
-              <p className="text-gray-300">
-                Producing exclusive Glopixs originals in multiple languages
-              </p>
+            <div className="flex items-start space-x-4">
+              <div className="bg-green-600 p-3 rounded-lg">
+                <Users className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Impact</h3>
+                <p className="text-gray-300">
+                From transforming the Tata Group into a global powerhouse to pioneering affordable innovation with the Nano car, Ratan Tata's impact transcends business metrics. Through digital transformation and sustainable practices, we continue this legacy of creating meaningful change.</p>
+              </div>
             </div>
-            <div className="bg-gray-900 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Global Community</h3>
-              <p className="text-gray-300">
-                Building features to connect film enthusiasts worldwide
-              </p>
-            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founder Story */}
+      <section className="py-16 px-4 md:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Founder’s Story</h2>
+          <div className="text-gray-300 text-lg leading-relaxed">
+            <p className="mb-6">
+            Glopixs was founded by Vincey AL, a visionary leader and technology innovator who serves as our CEO. With a passion for digital transformation and a deep understanding of emerging technologies, Vincey has been instrumental in shaping Glopixs into a leading force in the industry.</p>
+
+           <p> Anita, our distinguished co-founder, brings invaluable expertise and strategic insight to our organization. Together, they lead a team of dedicated professionals committed to delivering innovative solutions that drive business success.</p>
+
+          <p>  Our leadership team combines decades of experience in technology, business strategy, and digital innovation, ensuring that we remain at the forefront of digital transformation.
+            </p>
+            <p>
+              Today, we continue that journey, ensuring that every culture, every language, and 
+              every storyteller gets a stage to shine.
+            </p>
           </div>
         </div>
       </section>
       <Footer/>
-
     </main>
-
   );
-
 }
