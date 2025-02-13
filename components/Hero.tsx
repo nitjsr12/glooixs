@@ -39,7 +39,7 @@ export default function Hero() {
   }, [api]);
 
   return (
-    <div className="relative h-[85vh] w-full overflow-hidden">
+    <div className="relative h-[85vh] w-full flex overflow-hidden">
       <Carousel
         setApi={setApi}
         className="h-full w-full"
@@ -50,29 +50,23 @@ export default function Hero() {
       >
         <CarouselContent>
           {heroSlides.map((slide, index) => (
-            <CarouselItem key={index} className="h-[85vh]">
-              <div className="relative h-full w-full">
-                <div className="absolute inset-0">
-                  <img
-                    src={slide.image}
-                    alt={slide.title}
-                    className="h-full w-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-                </div>
-                
-                <div className="relative h-full flex items-center">
-                  <div className="container px-4 md:px-6">
-                    <div className="max-w-3xl space-y-4">
-                      <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl text-white">
-                        {slide.title}
-                      </h1>
-                      <blockquote className="text-2xl italic text-gray-200 md:text-3xl">
-                        "{slide.quote}"
-                      </blockquote>
-                      <p className="text-lg text-gray-300">{slide.role}</p>
-                    </div>
-                  </div>
+            <CarouselItem key={index} className="h-[85vh] flex">
+              <div className="w-1/2 h-full">
+                <img
+                  src={slide.image}
+                  alt={slide.title}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="w-1/2 flex items-center p-8 bg-black text-white">
+                <div className="max-w-lg space-y-4">
+                  <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+                    {slide.title}
+                  </h1>
+                  <blockquote className="text-2xl italic md:text-3xl">
+                    "{slide.quote}"
+                  </blockquote>
+                  <p className="text-lg">{slide.role}</p>
                 </div>
               </div>
             </CarouselItem>
